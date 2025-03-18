@@ -1,6 +1,12 @@
 NMAP
 AMY_GARAY
 1) UTILIDAD DEL REPOSITORIO
+DARIO_GALLEGOS
+Nmap es una herramienta crucial en el campo de la ciberseguridad, especialmente en el contexto de las pruebas de penetración y el análisis de redes. Su capacidad para realizar escaneos de puertos, detectar servicios y obtener detalles sobre sistemas operativos hace de Nmap una opción robusta para mapear redes y descubrir vulnerabilidades. Con opciones avanzadas como el Nmap Scripting Engine (NSE), los profesionales pueden ejecutar scripts automatizados para detectar fallos de seguridad específicos. Además, su capacidad de escaneo pasivo y activo ofrece flexibilidad para adaptarse a diferentes escenarios y políticas de seguridad. La eficiencia y precisión de Nmap lo convierten en una herramienta indispensable para auditar la infraestructura de red en busca de puntos débiles que puedan ser explotados por atacantes.
+
+3) JUSTIFICACIÓN
+Nmap es una herramienta excelente debido a su capacidad de realizar escaneos profundos y detallados de redes, lo que permite una evaluación precisa de la seguridad de los sistemas. Su flexibilidad para realizar análisis tanto activos como pasivos asegura que los profesionales puedan operar de manera discreta o invasiva según el contexto de la prueba de penetración. Además, su integración con el Nmap Scripting Engine (NSE) amplifica la utilidad de la herramienta, permitiendo a los usuarios ejecutar scripts personalizados para detectar vulnerabilidades específicas de manera automatizada. Esto hace que Nmap no solo sea fácil de usar, sino también extremadamente potente y adaptable a diversos entornos de red, lo que lo convierte en un estándar de facto en la seguridad informática.
+
    Identifica sistemas operativos y versiones de software a través de fingerprinting con -O y -sV
    Se usa en pruebas de penetración para obtener una visión detallada de la superficie de ataque de una red.
    Técnicas de evasión como fragmentación de paquetes (-f), modificación de TTL (--ttl) o camuflaje de origen (-S, -D) para analizar reglas de firewall.
@@ -94,5 +100,6 @@ Nmap es una herramienta que permite trazar rápidamente una red sin necesidad de
 
 https://nmap.org/book/man.html#man-ex-repscan
 https://www.freecodecamp.org/news/what-is-nmap-and-how-to-use-it-a-tutorial-for-the-greatest-scanning-tool-of-all-time/
+ master
  master
  master
