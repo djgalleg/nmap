@@ -8,13 +8,13 @@ Nmap es una herramienta utilizada para el escaneo de redes, cuyo principal prop�
 nmap -sS -T5 -SV $IP
 ```
 
-## 🔍 ¿Para qué se usa?
+## 🔍 Utilidad del repositorio NMAP
 - Identificar dispositivos conectados a una red.
 - Detectar puertos abiertos y servicios en ejecución.
 - Determinar versiones de software y sistemas operativos.
 - Realizar pruebas de seguridad y detección de vulnerabilidades.
 
-## Justificación
+## Justificación del porque se utilizo el repositorio de NMAP
 El escaneo de redes, tanto en entornos domésticos como empresariales, permite identificar puertos abiertos, latencia en la red y posibles vulnerabilidades. Es fundamental que los profesionales de redes comprendan y actúen adecuadamente en el análisis de una red. Nmap, una de las herramientas más populares, es ampliamente utilizada en pruebas de penetración (pentesting), retos CTF y auditorías de seguridad.
 El repositorio de Nmap no solo ofrece una herramienta de escaneo de puertos, sino que también proporciona un framework avanzado de auditoría de redes y seguridad ofensiva. Su versatilidad lo hace útil tanto para atacantes éticos como para defensores de ciberseguridad.
 
