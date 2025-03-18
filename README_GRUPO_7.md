@@ -24,25 +24,7 @@ Por ejemplo, la empresa CompTIA menciona:
 Asimismo, Red Hat destaca:
 > "Nmap es conocido popularmente como la navaja suiza del administrador de sistemas, debido a su capacidad para identificar problemas en redes corporativas." (Nandishwar, 2019)
 
-## Aspectos Claves de Nmap
-| **Aspecto**               | **Descripción** |
-|---------------------------|-----------------|
-| **Nombre**               | Nmap (Network Mapper) |
-| **Funcionalidad Principal** | Herramienta de código abierto para el escaneo y mapeo de redes. |
-| **Características destacadas** | - Detección de hosts activos.<br>- Escaneo de puertos.<br>- Detección de servicios y versiones.<br>- Estimación del sistema operativo.<br>- Nmap Scripting Engine (NSE) para tareas específicas. |
-| **Aplicaciones Comunes** | - Seguridad Informática.<br>- Administración de redes.<br>- Auditorías de cumplimiento. |
-
-## NMAP y el Repositorio DARIO_GALLEGOS
 Nmap es una herramienta fundamental en ciberseguridad, especialmente en pruebas de penetración y análisis de redes. Su capacidad para realizar escaneos de puertos, detectar servicios y analizar sistemas operativos lo convierte en una opción robusta para mapear redes y descubrir vulnerabilidades.
-
-### Técnicas avanzadas con Nmap:
-- Identificación de sistemas operativos y versiones de software con `-O` y `-sV`.
-- Uso en pruebas de penetración para obtener una visión detallada de la superficie de ataque.
-- Técnicas de evasión como:
-  - Fragmentación de paquetes (`-f`).
-  - Modificación de TTL (`--ttl`).
-  - Camuflaje de origen (`-S`, `-D`).
-- Escaneo distribuido con `nmap -iL` para analizar múltiples objetivos simultáneamente.
 
 ## ¿Por qué usar Nmap?
 Nmap es una herramienta que permite mapear rápidamente una red sin necesidad de configuraciones complejas. Puede utilizarse con comandos simples o con scripting avanzado mediante el Nmap Scripting Engine (NSE).
@@ -53,6 +35,23 @@ Nmap es una herramienta que permite mapear rápidamente una red sin necesidad de
 - **Detección del sistema operativo**: Obtiene información detallada del sistema operativo.
 - **Escaneo de seguridad y vulnerabilidades**: Utiliza scripts NSE para auditorías de seguridad.
 - **Interfaz gráfica (Zenmap)**: Permite generar mapas visuales de la red.
+
+## Aspectos Claves de Nmap
+| **Aspecto**               | **Descripción** |
+|---------------------------|-----------------|
+| **Nombre**               | Nmap (Network Mapper) |
+| **Funcionalidad Principal** | Herramienta de código abierto para el escaneo y mapeo de redes. |
+| **Características destacadas** | - Detección de hosts activos.<br>- Escaneo de puertos.<br>- Detección de servicios y versiones.<br>- Estimación del sistema operativo.<br>- Nmap Scripting Engine (NSE) para tareas específicas. |
+| **Aplicaciones Comunes** | - Seguridad Informática.<br>- Administración de redes.<br>- Auditorías de cumplimiento. |
+
+### Técnicas avanzadas con Nmap:
+- Identificación de sistemas operativos y versiones de software con `-O` y `-sV`.
+- Uso en pruebas de penetración para obtener una visión detallada de la superficie de ataque.
+- Técnicas de evasión como:
+  - Fragmentación de paquetes (`-f`).
+  - Modificación de TTL (`--ttl`).
+  - Camuflaje de origen (`-S`, `-D`).
+- Escaneo distribuido con `nmap -iL` para analizar múltiples objetivos simultáneamente.
 
 ## Ejemplo de Escaneo con Nmap
 ```bash
